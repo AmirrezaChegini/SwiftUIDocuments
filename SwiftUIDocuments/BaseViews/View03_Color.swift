@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct View03_Color: View {
+    // for hex colors must decelare in Asset folder and use with their names in Color("colorName")
     var body: some View {
         // you can use foregroundStyle for any views but you can fill only for shapes.
         Circle()

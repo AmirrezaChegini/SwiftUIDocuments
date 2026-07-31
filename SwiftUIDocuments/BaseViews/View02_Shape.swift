@@ -9,11 +9,30 @@ import SwiftUI
 
 struct View02_Shape: View {
     var body: some View {
-        Circle()
+//        Circle()
 //        Ellipse()
 //        Capsule()
 //        Rectangle()
-//        RoundedRectangle(cornerRadius: 0)
+//        RoundedRectangle(
+//            cornerRadius: 10,
+//            style: .continuous // for corner shape
+//        )
+//        UnevenRoundedRectangle( // rounded rectangle with defferent corner radius
+//            cornerRadii: RectangleCornerRadii(
+//                topLeading: 100,
+//                bottomLeading: 200,
+//                bottomTrailing: 300,
+//                topTrailing: 1500,
+//            ),
+//            style: .continuous
+//        )
+//        Path { path in  // use for create custom shape
+//            path.move(to: CGPoint(x: 0, y: 0))
+//            path.addLine(to: CGPoint(x: 200, y: 0))
+//            path.addLine(to: CGPoint(x: 200, y: 200))
+//            path.addLine(to: CGPoint(x: 0, y: 200))
+//            path.closeSubpath()
+//        }
 //            .fill(.red)    // we can use only one of the fill or stroke
 //            .stroke()      // border shape
 //            .stroke(.red)  // change border color

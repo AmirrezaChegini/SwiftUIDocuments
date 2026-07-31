@@ -18,6 +18,11 @@ struct View01_Text: View {
 //                weight: .heavy, // change font weight
 //                design: .serif, // change font design
 //            ))
+//            .font(.custom(
+//                "custom-font",  // use custom font
+//                size: 24,
+//                relativeTo: .headline
+//            ))
 //            .bold()             //.bold == .fontDesign(.bold)
 //            .underline()        // underline text
 //            .italic()           // italic font
