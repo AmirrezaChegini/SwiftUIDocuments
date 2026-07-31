@@ -9,7 +9,13 @@ import SwiftUI
 
 struct View04_Shadow: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .shadow(
+                color: .red,  // Color
+                radius: 10,   // Spreed radius
+                x: 10,        // Horizontal space
+                y: 10         // Vertical Space
+            )
     }
 }
 

@@ -9,7 +9,16 @@ import SwiftUI
 
 struct View03_Color: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // you can use foregroundStyle for any views but you can fill only for shapes.
+        Circle()
+//            .fill(.red)   // Simple Color
+//            .fill(Color("Your Color in assets Folder")) // Custom Color
+//            .fill(Color(uiColor: UIColor.systemBlue)) // System Color
+//            .fill(Color(red: 30, green: 0, blue: 200, opacity: 1)) // RGB Color
+//            .foregroundStyle(.red)
+//            .foregroundStyle(Color("Your Color in assets Folder"))
+//            .foregroundStyle(Color(uiColor: UIColor.systemBlue))
+//            .foregroundStyle(Color(red: 30, green: 0, blue: 200, opacity: 1))
     }
 }
 
