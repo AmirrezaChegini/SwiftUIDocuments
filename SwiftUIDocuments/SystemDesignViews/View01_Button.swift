@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct View16_Button: View {
+struct View01_Button: View {
     var body: some View {
         
         // this is useful for simple button with icon and string
@@ -37,5 +37,5 @@ struct View16_Button: View {
 }
 
 #Preview {
-    View16_Button()
+    View01_Button()
 }
